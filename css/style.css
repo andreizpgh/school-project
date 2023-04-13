@@ -200,6 +200,15 @@ body {
     gap: 40px 30px;
 }
 
+.articles__list-item{
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.article__list-item-wrap{
+    margin: 20px;
+}
+
 .article__list-image {
     width: 100%;
     margin-bottom: 5px;
