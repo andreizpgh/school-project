@@ -333,6 +333,12 @@ body {
     .swiper-slide__image img {
         height: 400px;
     }
+    .articles-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .article__list-image{
+        height: 400px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -343,16 +349,19 @@ body {
     .swiper-slide__image img {
         height: 300px;
     }
+    .article__list-image{
+        height: 280px;
+    }
 }
 
 @media (max-width: 430px) {
-    .articles-list {
-        grid-template-columns: repeat(1, 1fr);
-    }
     .title {
         padding-bottom: 10px;
     }
     .swiper-slide__image img {
         height: 230px;
+    }
+    .article__list-image{
+        height: 250px;
     }
 }
