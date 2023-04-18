@@ -351,6 +351,7 @@ body {
   }
 
   .swiper-slide__image img {
+    width: 90%;
     height: 500px;
   }
 }
@@ -379,6 +380,10 @@ body {
   .slider-m {
     width: 390px;
     margin: 0 auto;
+  }
+
+  .swiper-slide__image img {
+    width: 100%;
   }
 
   .swiper-slide__image-m img {
