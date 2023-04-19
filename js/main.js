@@ -1,4 +1,6 @@
 const swiper = new Swiper(".swiper", {
+  spaceBetween: 15,
+  grabCursor: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -8,4 +10,3 @@ const swiper = new Swiper(".swiper", {
     disableOnInteraction: false,
   },
 });
-
