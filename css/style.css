@@ -128,7 +128,7 @@ body {
 
 .title {
   max-width: 800px;
-  font-size: 32px;
+  font-size: 36px;
   display: inline-block;
   padding-top: 140px;
   padding-bottom: 30px;
@@ -290,6 +290,9 @@ body {
 }
 
 .swiper-pagination-bullet {
+  width: 60px;
+  height: 5px;
+  border-radius: 0%;
   background-color: #fff;
   opacity: 1;
 }
@@ -405,7 +408,7 @@ body {
   }
 
   .top-background-2 {
-    height: 872px;
+    height: 913px;
   }
 
   .articles-list {
@@ -421,7 +424,7 @@ body {
   }
 
   .title {
-    font-size: 24px;
+    font-size: 30px;
     padding-top: 80px;
   }
 
@@ -434,15 +437,9 @@ body {
   }
 }
 
-@media (max-width: 708px) {
-  .top-background-2 {
-    height: 902px;
-  }
-}
-
 @media (max-width: 701px) {
   .top-background-2 {
-    height: 920px;
+    height: 935px;
   }
 }
 
@@ -459,6 +456,10 @@ body {
   .article__list-image {
     height: 280px;
   }
+  .swiper-pagination-bullet {
+    width: 45px;
+    height: 4px;
+  }
 }
 
 @media (max-width: 487px) {
@@ -466,19 +467,25 @@ body {
     padding-top: 50px;
   }
   .top-background-2 {
-    height: 900px;
+    height: 915px;
   }
 }
 
 @media (max-width: 485px) {
   .top-background-2 {
-    height: 918px;
+    height: 933px;
   }
 }
 
-@media (max-width: 453px) {
+@media (max-width: 477px) {
   .top-background-2 {
-    height: 944px;
+    height: 972px;
+  }
+}
+
+@media (max-width: 468px) {
+  .top-background-2 {
+    height: 997px;
   }
 }
 
@@ -488,7 +495,7 @@ body {
   }
 
   .top-background-2 {
-    height: 925px;
+    height: 978px;
   }
 
   .swiper-slide__image img {
@@ -505,12 +512,20 @@ body {
   .swiper-slide__image-m img {
     height: 650px;
   }
+
+  .swiper-pagination-bullet {
+    width: 40px;
+    height: 3px;
+  }
+}
+
+@media (max-width: 394px) {
+  .top-background-2 {
+    height: 997px;
+  }
 }
 
 @media (max-width: 393px) {
-  .top-background-2 {
-    height: 943px;
-  }
   .slider-m {
     width: 340px;
   }
@@ -520,10 +535,13 @@ body {
   }
 }
 
-@media (max-width: 372px) {
+@media (max-width: 381px) {
   .top-background-2 {
-    height: 975px;
+    height: 1035px;
   }
+}
+
+@media (max-width: 372px) {
   .slider-m {
     width: 330px;
   }
