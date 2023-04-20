@@ -397,6 +397,19 @@ body {
   }
 }
 
+.about-wrap {
+  text-align: center;
+}
+
+.about-title {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.about-p {
+  padding-bottom: 25px;
+}
+
 @media (max-width: 720px) {
   body {
     font-size: 16px;
