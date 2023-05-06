@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Luvlingua</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link
@@ -17,169 +16,94 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
     <div class="wrapper">
-      <header class="header">
+      <main id="main" class="main">
         <div class="container">
-          <div class="header__inner">
-            <a href="index.html" class="logo">
-              <img src="images/logo.svg" alt="" class="logo__img" />
-            </a>
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__list-item">
-                  <a href="index.html" class="menu__list-link">Статьи</a>
-                </li>
-                <li class="menu__list-item">
-                  <a href="about.html" class="menu__list-link">Подробнее</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
-
-      <main class="main">
-        <div class="container">
-          <h1 class="article__title">
+          <h1 class="title article-title">
             Узнайте французский язык, алфавит и грамматику с Luvlingua
           </h1>
-          <p class="article__date">7 Апреля, 2023</p>
-          <ul class="mobile__article">
-            <li class="mobile__left">
-              <div class="slider-m">
-                <div class="swiper">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div class="swiper-slide__image-m">
-                        <img
-                          src="images/luv-1.jpg"
-                          alt=""
-                          class="slide-picture"
-                        />
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="swiper-slide__image-m">
-                        <img
-                          src="images/luv-2.jpg"
-                          alt=""
-                          class="slide-picture"
-                        />
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="swiper-slide__image-m">
-                        <img
-                          src="images/luv-3.jpg"
-                          alt=""
-                          class="slide-picture"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-pagination"></div>
+          <p class="main__date">6 Апреля, 2023</p>
+          <div class="main--two-column-layout">
+            <div class="swiper swiper--two-column-layout">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images/luv-1.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/luv-2.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/luv-3.jpg" alt="" />
                 </div>
               </div>
-            </li>
-            <li class="mobile__right">
-              <h3 class="article__subtitle">Описание проекта</h3>
-              <p class="article__paragraph">
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="main__text">
+              <h3>Описание проекта</h3>
+              <p>
                 Образовательные приложения Luvlingua позволяют учиться через
                 веселые игры, рассчитанные на разные уровни владения языком.
                 Изучите ключевые слова и основные предложения, чтобы приобрести
                 твердую базу на французском языке.
               </p>
-              <h3 class="article__subtitle">Возможности применения</h3>
-              <p class="article__paragraph">
+              <h3>Возможности применения</h3>
+              <p>
                 Разработано учителями для поддержки и реагирования на различные
                 стили обучения.
               </p>
-              <p class="article__paragraph-bullet">
-                - Визуальная (изображение и игра памяти)
-              </p>
-              <p class="article__paragraph-bullet">
-                - Слух (викторина прослушивания)
-              </p>
-              <p class="article__paragraph-bullet">
-                - Чтение (написание викторины и множественного выбора, Word
-                Riddles)
-              </p>
-              <p class="article__paragraph">
-                - кинестетическая (анимация и целевые игры)
-              </p>
-              <p class="article__paragraph">
+              <div>
+                <p>- Визуальная (изображение и игра памяти)</p>
+                <p>- Слух (викторина прослушивания)</p>
+                <p>
+                  - Чтение (написание викторины и множественного выбора, Word
+                  Riddles)
+                </p>
+                <p>- кинестетическая (анимация и целевые игры)</p>
+              </div>
+              <p>
                 Быстро и легко ищите слова или предложения в разделе поиска и
                 сохраняйте, чтобы изучить их позже. В приложение присутствует
                 возможность изменить язык пользователя, скрыть/отображать
                 романизацию.
               </p>
-              <h3 class="article__subtitle">Ссылки</h3>
-              <ul class="article__links">
-                <li class="article__links-item">
-                  <a href="https://www.luvlingua.com/" class="article__link">
+              <h3>Ссылки</h3>
+              <ul>
+                <li>
+                  <a href="https://www.luvlingua.com/" class="main__link">
                     Сайт проекта
                   </a>
                 </li>
-                <li class="article__links-item">
+                <li>
                   <a
                     href="https://play.google.com/store/apps/details?id=com.silvermoonapps.luvlingualearnfunfrenchlanguage&hl=en_US"
-                    class="article__link"
+                    class="main__link"
                   >
                     Приложение на французском
                   </a>
                 </li>
-                <li class="article__links-item">
+                <li>
                   <a
                     href="https://play.google.com/store/apps/details?id=com.silvermoonapps.learnenglishlanguageculturelite"
-                    class="article__link"
+                    class="main__link"
                   >
                     Приложение на английском
                   </a>
                 </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </main>
-
       <footer class="footer">
         <div class="container">
-          <div class="footer__inner">
-            <p class="footer__project">Проект создали:</p>
-            <ul class="footer__authors">
-              <li class="footer__authors-item">
-                <p class="footer_authors-name">Андрей Захаров</p>
-                <a href="mailto:andreizakharov@proton.me" class="name-link">
-                  <img src="images/name-email.svg" alt="" class="name-email" />
-                </a>
-              </li>
-              <li class="footer__authors-item">
-                <p class="footer_authors-name">Полина Зубакина</p>
-                <a
-                  href="mailto:polina.zubakina2016@gmail.com"
-                  class="name-link"
-                >
-                  <img src="images/name-email.svg" alt="" class="name-email" />
-                </a>
-              </li>
-              <li class="footer__authors-item">
-                <p class="footer_authors-name">Яна Божкова</p>
-                <a href="#" class="name-link">
-                  <img src="images/name-email.svg" alt="" class="name-email" />
-                </a>
-              </li>
-            </ul>
-            <hr class="footer__line" />
-            <p class="footer__school">
-              ГУО «СШ №47 г. Витебска имени Е.Ф. Ивановского»
-            </p>
+          <div class="footer__buttons">
+            <a href="#main" class="button button--yellow"> Вверх </a>
+            <a href="index.html" class="button button--yellow"> На главную </a>
           </div>
         </div>
       </footer>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>

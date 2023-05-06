@@ -1,375 +1,252 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Образовательный контент на английском и французском</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
     <div class="wrapper">
-      <header class="header">
-        <div class="container">
-          <div class="header__inner">
-            <a href="index.html" class="logo">
-              <img src="images/logo.svg" alt="" class="logo__img" />
+      <header id="header" class="header">
+        <div class="header__inner">
+          <div class="container">
+            <ul class="header__list">
+              <li>
+                <a href="#">
+                  <img src="images/logo.svg" alt="" class="logo header__logo" />
+                </a>
+              </li>
+              <li>
+                <h1 class="title">
+                  Образовательный контент на английском и французском
+                </h1>
+              </li>
+              <li>
+                <a href="about.html" class="button button--blue"> Подробнее </a>
+              </li>
+            </ul>
+            <a href="#main" class="header__down-button">
+              <div class="header__down-button-arrows"></div>
+              Далее
             </a>
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__list-item">
-                  <a
-                    href="#articles"
-                    class="menu__list-link menu__list-link--active"
-                    >Статьи</a
-                  >
-                </li>
-                <li class="menu__list-item">
-                  <a href="about.html" class="menu__list-link">Подробнее</a>
-                </li>
-              </ul>
-            </nav>
           </div>
         </div>
       </header>
-
-      <main class="main">
-        <section class="top">
-          <div class="top-background"></div>
-          <div class="top-background-2"></div>
-          <div class="container">
-            <h1 class="title">
-              Образовательный контент на английском и французском
-            </h1>
-          </div>
-        </section>
-        <section id="articles" class="articles">
-          <div class="container">
-            <div class="main__article">
-              <ul class="main__article-content">
-                <li class="main__article-content-item">
-                  <ul class="main__article-left">
-                    <li class="main__article-left-item">
-                      <p class="article__list-date">10 Апреля, 2023</p>
-                    </li>
-                    <li class="main__article-left-item">
-                      <a href="interland.html" class="article__list-link">
-                        <h3 class="article__list-title">
-                          Interland: интерактивное обучение безопасности в
-                          интернете вместе с Google
-                        </h3>
-                      </a>
-                    </li>
-                    <li class="main__article-left-item">
-                      <p class="article__list-text">
-                        Interland – это насыщенная приключениями онлайн-игра,
-                        которая делает изучение цифровой безопасности и общения
-                        в интернете интерактивным и увлекательным.
-                      </p>
-                    </li>
-
-                    <li class="main__article-left-item">
-                      <h4 class="article__languages">
-                        Языки: Английский, Французский
-                      </h4>
-                    </li>
-                  </ul>
-                </li>
-                <li class="main__article-content-item">
-                  <a href="interland.html" class="article__list-link">
-                    <img
-                      class="main__article-image"
-                      src="images/interland-1.jpg"
-                      alt=""
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="articles-list">
-              <div class="articles__list-item">
-                <ul class="article__list-content">
-                  <li class="article__list-content-item">
-                    <a href="games-to-learn.html" class="article__list-link">
-                      <img
-                        class="article__list-image"
-                        src="images/gtl-0.jpg"
-                        alt=""
-                      />
-                    </a>
-                  </li>
-                  <li class="article__list-content-item">
-                    <ul class="article__list-content-text">
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-date">8 Апреля, 2023</p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <a
-                          href="games-to-learn.html"
-                          class="article__list-link"
-                        >
-                          <h3 class="article__list-title">
-                            Games to Learn English – учим английский
-                            самостоятельно
-                          </h3>
-                        </a>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-text">
-                          Цель этого сайта – предоставить ученикам ресурс для
-                          практики английского языка в удобной и увлекательной
-                          форме.
-                        </p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <h4 class="article__list-lang">Языки: Английский</h4>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="articles__list-item">
-                <ul class="article__list-content">
-                  <li class="article__list-content-item">
-                    <a href="dacobots.html" class="article__list-link">
-                      <img
-                        class="article__list-image"
-                        src="images/daco-0.webp"
-                        alt=""
-                      />
-                    </a>
-                  </li>
-                  <li class="article__list-content-item">
-                    <ul class="article__list-content-text">
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-date">7 Апреля, 2023</p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <a href="dacobots.html" class="article__list-link">
-                          <h3 class="article__list-title">
-                            Обучающий портал «Dacobots»
-                          </h3>
-                        </a>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-text">
-                          Портал «Dacobots» создан для развития детского
-                          кругозора, расширения знаний в различных областях.
-                        </p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <h4 class="article__list-lang">Языки: Английский</h4>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="articles__list-item">
-                <ul class="article__list-content">
-                  <li class="article__list-content-item">
-                    <a href="spoofy.html" class="article__list-link">
-                      <img
-                        class="article__list-image"
-                        src="images/spoofy-0.jpg"
-                        alt=""
-                      />
-                    </a>
-                  </li>
-                  <li class="article__list-content-item">
-                    <ul class="article__list-content-text">
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-date">7 Апреля, 2023</p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <a href="spoofy.html" class="article__list-link">
-                          <h3 class="article__list-title">
-                            Spoofy – увлекательная онлайн-игра на тему
-                            безопасности в интернете
-                          </h3>
-                        </a>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-text">
-                          Spoofy – это игра на тему кибербезопасности,
-                          рассказывающая детям об угрозах, с которыми они могут
-                          столкнуться в интернете.
-                        </p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <h4 class="article__list-lang">Языки: Английский</h4>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="articles__list-item">
-                <ul class="article__list-content">
-                  <li class="article__list-content-item">
-                    <a href="luvlingua.html" class="article__list-link">
-                      <img
-                        class="article__list-image"
-                        src="images/luv-0.webp"
-                        alt=""
-                      />
-                    </a>
-                  </li>
-                  <li class="article__list-content-item">
-                    <ul class="article__list-content-text">
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-date">7 Апреля, 2023</p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <a href="luvlingua.html" class="article__list-link">
-                          <h3 class="article__list-title">
-                            Узнайте французский язык, алфавит и грамматику с
-                            Luvlingua
-                          </h3>
-                        </a>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-text">
-                          Образовательные приложения Luvlingua позволяют вам
-                          учиться через веселые игры и начинающих до
-                          промежуточных уровней.
-                        </p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <h4 class="article__list-lang">
-                          Языки: Французский, Английский
-                        </h4>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="articles__list-item">
-                <ul class="article__list-content">
-                  <li class="article__list-content-item">
-                    <a href="frenchgames.html" class="article__list-link">
-                      <img
-                        class="article__list-image"
-                        src="images/frenchgames-0.jpeg"
-                        alt=""
-                      />
-                    </a>
-                  </li>
-                  <li class="article__list-content-item">
-                    <ul class="article__list-content-text">
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-date">6 Апреля, 2023</p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <a href="luvlingua.html" class="article__list-link">
-                          <h3 class="article__list-title">
-                            «Игры на французском»
-                          </h3>
-                        </a>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-text">
-                          «Игры на французском» – бесплатный онлайн-ресурс для
-                          начинающих изучать французский язык, который
-                          предлагает полный набор уроков языка, тренировочных
-                          игр и быстрых тестов для более 100 топиков по
-                          французскому языку бесплатно.
-                        </p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <h4 class="article__list-lang">Языки: Французский</h4>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="articles__list-item">
-                <ul class="article__list-content">
-                  <li class="article__list-content-item">
-                    <a href="jeux.html" class="article__list-link">
-                      <img
-                        class="article__list-image"
-                        src="images/jeux-0.webp"
-                        alt=""
-                      />
-                    </a>
-                  </li>
-                  <li class="article__list-content-item">
-                    <ul class="article__list-content-text">
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-date">6 Апреля, 2023</p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <a href="luvlingua.html" class="article__list-link">
-                          <h3 class="article__list-title">
-                            Образовательные игры «Jeux éducatifs»
-                          </h3>
-                        </a>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <p class="article__list-text">
-                          Cотни бесплатных онлайн-образовательных игр на вашем
-                          компьютере, планшете или смартфоне.
-                        </p>
-                      </li>
-                      <li class="article__list-content-text-item">
-                        <h4 class="article__list-lang">Языки: Французский</h4>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="footer">
+      <main id="main" class="main">
         <div class="container">
-          <div class="footer__inner">
-            <p class="footer__project">Проект создали:</p>
-            <ul class="footer__authors">
-              <li class="footer__authors-item">
-                <p class="footer_authors-name">Андрей Захаров</p>
-                <a href="mailto:andreizakharov@proton.me" class="name-link">
-                  <img src="images/name-email.svg" alt="" class="name-email" />
+          <article class="main__top-article">
+            <a href="interland.html" class="main__article-image">
+              <img src="images/interland-1.jpg" alt="" />
+            </a>
+            <ul class="main__article-content main__article-content--top">
+              <li>10 Апреля, 2023</li>
+              <li class="main__article-title">
+                <a href="interland.html">
+                  <h3>
+                    Interland: интерактивное обучение безопасности в интернете
+                    вместе с Google
+                  </h3>
                 </a>
               </li>
-              <li class="footer__authors-item">
-                <p class="footer_authors-name">Полина Зубакина</p>
-                <a
-                  href="mailto:polina.zubakina2016@gmail.com"
-                  class="name-link"
-                >
-                  <img src="images/name-email.svg" alt="" class="name-email" />
-                </a>
+              <li>
+                Interland – это насыщенная приключениями онлайн-игра, которая
+                делает изучение цифровой безопасности и общения в интернете
+                интерактивным и увлекательным. Здесь дети помогут своим героям
+                бороться с хакерами и хулиганами, практикуя навыки безопасности
+                поведения в интернете.
               </li>
-              <li class="footer__authors-item">
-                <p class="footer_authors-name">Яна Божкова</p>
-                <a href="#" class="name-link">
-                  <img src="images/name-email.svg" alt="" class="name-email" />
-                </a>
+              <li>
+                <h4>Языки: Английский, Французский</h4>
               </li>
             </ul>
-            <hr class="footer__line" />
-            <p class="footer__school">
-              ГУО «СШ №47 г. Витебска имени Е.Ф. Ивановского»
-            </p>
+          </article>
+          <h2 class="other-articles">Другие статьи:</h2>
+          <div class="main__article-list">
+            <div class="main__list-column">
+              <article class="main__article">
+                <a
+                  href="jeux-éducatifs.html"
+                  class="main__article-image main__article-list-image"
+                >
+                  <img src="images/jeux-0.webp" alt="" />
+                </a>
+                <ul
+                  class="main__article-content main__article-content--general"
+                >
+                  <li>8 Апреля, 2023</li>
+                  <li class="main__article-title">
+                    <a href="jeux-éducatifs.html">
+                      <h3>Образовательные игры «Jeux éducatifs»</h3>
+                    </a>
+                  </li>
+                  <li>
+                    Cотни бесплатных онлайн-образовательных игр на вашем
+                    компьютере, планшете или смартфоне. Образовательные игры,
+                    предназначенные для изучения языка.
+                  </li>
+                  <li>
+                    <h4>Языки: Французский</h4>
+                  </li>
+                </ul>
+              </article>
+              <article class="main__article">
+                <a
+                  href="french-games.html"
+                  class="main__article-image main__article-list-image"
+                >
+                  <img src="images/frenchgames-0.jpeg" alt="" />
+                </a>
+                <ul
+                  class="main__article-content main__article-content--general"
+                >
+                  <li>7 Апреля, 2023</li>
+                  <li class="main__article-title">
+                    <a href="french-games.html">
+                      <h3>Онлайн-ресурс «Игры на французском»</h3>
+                    </a>
+                  </li>
+                  <li>
+                    «Игры на французском» – бесплатный онлайн-ресурс для
+                    начинающих изучать французский язык, который предлагает
+                    полный набор уроков, тренировочных игр и быстрых тестов.
+                  </li>
+                  <li>
+                    <h4>Языки: Французский</h4>
+                  </li>
+                </ul>
+              </article>
+            </div>
+            <div class="main__list-column">
+              <article class="main__article">
+                <a
+                  href="dacobots.html"
+                  class="main__article-image main__article-list-image"
+                >
+                  <img src="images/daco-0.webp" alt="" />
+                </a>
+                <ul
+                  class="main__article-content main__article-content--general"
+                >
+                  <li>7 Апреля, 2023</li>
+                  <li class="main__article-title">
+                    <a href="dacobots.html">
+                      <h3>Обучающий портал «Dacobots»</h3>
+                    </a>
+                  </li>
+                  <li>
+                    Портал «Dacobots» создан для развития детского кругозора,
+                    расширения знаний в различных областях.
+                  </li>
+                  <li>
+                    <h4>Языки: Английский</h4>
+                  </li>
+                </ul>
+              </article>
+              <article class="main__article">
+                <a
+                  href="luvlingua.html"
+                  class="main__article-image main__article-list-image"
+                >
+                  <img src="images/luv-0.webp" alt="" />
+                </a>
+                <ul
+                  class="main__article-content main__article-content--general"
+                >
+                  <li>6 Апреля, 2023</li>
+                  <li class="main__article-title">
+                    <a href="luvlingua.html">
+                      <h3>
+                        Узнайте французский язык, алфавит и грамматику с
+                        Luvlingua
+                      </h3>
+                    </a>
+                  </li>
+                  <li>
+                    Образовательные приложения Luvlingua позволяют вам учиться
+                    через веселые игры и начинающих до промежуточных уровней.
+                  </li>
+                  <li>
+                    <h4>Языки: Французский, Английский</h4>
+                  </li>
+                </ul>
+              </article>
+            </div>
+            <div class="main__list-column">
+              <article class="main__article">
+                <a
+                  href="spoofy.html"
+                  class="main__article-image main__article-list-image"
+                >
+                  <img src="images/spoofy-1.jpg" alt="" />
+                </a>
+                <ul
+                  class="main__article-content main__article-content--general"
+                >
+                  <li>7 Апреля, 2023</li>
+                  <li class="main__article-title">
+                    <a href="spoofy.html">
+                      <h3>
+                        Spoofy – увлекательная онлайн-игра на тему безопасности
+                        в интернете
+                      </h3>
+                    </a>
+                  </li>
+                  <li>
+                    Spoofy – это игра на тему кибербезопасности, рассказывающая
+                    детям об угрозах, с которыми они могут столкнуться в
+                    интернете.
+                  </li>
+                  <li>
+                    <h4>Языки: Английский</h4>
+                  </li>
+                </ul>
+              </article>
+              <article class="main__article">
+                <a
+                  href="games-to-learn-english.html"
+                  class="main__article-image main__article-list-image"
+                >
+                  <img src="images/gtl-0.jpg" alt="" />
+                </a>
+                <ul
+                  class="main__article-content main__article-content--general"
+                >
+                  <li>6 Апреля, 2023</li>
+                  <li class="main__article-title">
+                    <a href="games-to-learn-english.html">
+                      <h3>
+                        Games to Learn English – учим английский самостоятельно
+                      </h3>
+                    </a>
+                  </li>
+                  <li>
+                    Цель этого сайта – предоставить ученикам ресурс для практики
+                    английского языка в удобной и увлекательной форме.
+                  </li>
+                  <li>
+                    <h4>Языки: Английский</h4>
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__buttons">
+            <a href="#header" class="button button--yellow"> Вверх </a>
+            <a href="about.html" class="button button--yellow"> Подробнее </a>
           </div>
         </div>
       </footer>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>

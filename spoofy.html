@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Spoofy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link
@@ -17,139 +16,73 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
     <div class="wrapper">
-      <header class="header">
+      <main id="main" class="main">
         <div class="container">
-          <div class="header__inner">
-            <a href="index.html" class="logo">
-              <img src="images/logo.svg" alt="" class="logo__img" />
-            </a>
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__list-item">
-                  <a href="index.html" class="menu__list-link">Статьи</a>
-                </li>
-                <li class="menu__list-item">
-                  <a href="about.html" class="menu__list-link">Подробнее</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header>
-
-      <main class="main">
-        <div class="container">
-          <h1 class="article__title">
+          <h1 class="title article-title">
             Spoofy – увлекательная онлайн-игра на тему безопасности в интернете
           </h1>
-          <p class="article__date">7 Апреля, 2023</p>
-          <div class="slider">
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="swiper-slide__image">
-                    <img
-                      src="images/spoofy-0.jpg"
-                      alt=""
-                      class="slide-picture"
-                    />
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="swiper-slide__image">
-                    <img
-                      src="images/spoofy-2.webp"
-                      alt=""
-                      class="slide-picture"
-                    />
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="swiper-slide__image">
-                    <img
-                      src="images/spoofy-3.webp"
-                      alt=""
-                      class="slide-picture"
-                    />
-                  </div>
-                </div>
+          <p class="main__date">7 Апреля, 2023</p>
+          <div class="swiper swiper--one-column-layout">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/spoofy-1.jpg" alt="" />
               </div>
-              <div class="swiper-pagination"></div>
+              <div class="swiper-slide">
+                <img src="images/spoofy-2.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/spoofy-3.webp" alt="" />
+              </div>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <h3 class="article__subtitle">Описание проекта</h3>
-          <p class="article__paragraph">
-            Spoofy – это игра на тему кибербезопасности, рассказывающая детям об
-            угрозах, с которыми они могут столкнуться в интернете. Игра учит
-            правилам поведения в сети, отвечает на другие связанные со
-            смарт-устройствами вопросы, а также расширяет знания английского
-            языка по данной теме.
-          </p>
-          <p class="article__paragraph">
-            В ходе игры детям предлагается проходить различные сценарии,
-            собирать домашних животных и делать множество других интересных
-            вещей.
-          </p>
-          <h3 class="article__subtitle">Возможности применения</h3>
-          <p class="article__paragraph">
-            Целевая аудитория игры – дети младшего школьного возраста, однако
-            игра подходит и для детей дошкольного возраста, если они играют
-            вместе со взрослыми. Уровни можно проходить в любой
-            последовательности. Уровни «Школа» и «День рождения» более короткие
-            и простые, дети могут пройти их самостоятельно. «Парк» уже немного
-            сложнее, а уровень «У бабушки» лучше всего подойдет для детей более
-            старшего возраста. На всех уровнях можно играть вместе со взрослыми.
-          </p>
-          <h3 class="article__subtitle">Ссылки</h3>
-          <ul class="article__links">
-            <li class="article__links-item">
-              <a href="https://spoofy.ee/en" class="article__link">
-                https://spoofy.ee/en
-              </a>
-            </li>
-          </ul>
-        </div>
-      </main>
-
-      <footer class="footer">
-        <div class="container">
-          <div class="footer__inner">
-            <p class="footer__project">Проект создали:</p>
-            <ul class="footer__authors">
-              <li class="footer__authors-item">
-                <p class="footer_authors-name">Андрей Захаров</p>
-                <a href="mailto:andreizakharov@proton.me" class="name-link">
-                  <img src="images/name-email.svg" alt="" class="name-email" />
-                </a>
-              </li>
-              <li class="footer__authors-item">
-                <p class="footer_authors-name">Полина Зубакина</p>
-                <a
-                  href="mailto:polina.zubakina2016@gmail.com"
-                  class="name-link"
-                >
-                  <img src="images/name-email.svg" alt="" class="name-email" />
-                </a>
-              </li>
-              <li class="footer__authors-item">
-                <p class="footer_authors-name">Яна Божкова</p>
-                <a href="#" class="name-link">
-                  <img src="images/name-email.svg" alt="" class="name-email" />
+          <div class="main__text">
+            <h3>Описание проекта</h3>
+            <p>
+              Spoofy – это игра на тему кибербезопасности, рассказывающая детям
+              об угрозах, с которыми они могут столкнуться в интернете. Игра
+              учит правилам поведения в сети, отвечает на другие связанные со
+              смарт-устройствами вопросы, а также расширяет знания английского
+              языка по данной теме.
+            </p>
+            <p>
+              В ходе игры детям предлагается проходить различные сценарии,
+              собирать домашних животных и делать множество других интересных
+              вещей.
+            </p>
+            <h3>Возможности применения</h3>
+            <p>
+              Целевая аудитория игры – дети младшего школьного возраста, однако
+              игра подходит и для детей дошкольного возраста, если они играют
+              вместе со взрослыми. Уровни можно проходить в любой
+              последовательности. Уровни «Школа» и «День рождения» более
+              короткие и простые, дети могут пройти их самостоятельно. «Парк»
+              уже немного сложнее, а уровень «У бабушки» лучше всего подойдет
+              для детей более старшего возраста. На всех уровнях можно играть
+              вместе со взрослыми.
+            </p>
+            <h3>Ссылки</h3>
+            <ul>
+              <li>
+                <a href="https://spoofy.ee/en" class="main__link">
+                  https://spoofy.ee/en
                 </a>
               </li>
             </ul>
-            <hr class="footer__line" />
-            <p class="footer__school">
-              ГУО «СШ №47 г. Витебска имени Е.Ф. Ивановского»
-            </p>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__buttons">
+            <a href="#main" class="button button--yellow"> Вверх </a>
+            <a href="index.html" class="button button--yellow"> На главную </a>
           </div>
         </div>
       </footer>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
