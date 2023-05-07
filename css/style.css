@@ -62,7 +62,7 @@ body {
     rgba(235, 150, 45, 1) 100%
   );
   position: relative;
-  height: 100vh;
+  height: 100svh;
   text-align: center;
 }
 
