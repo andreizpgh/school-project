@@ -376,8 +376,7 @@ body {
 
 .main__image {
   width: 100%;
-  display: block;
-  border-radius: 40px;
+  border-radius: 30px;
 }
 
 .main__logo {
