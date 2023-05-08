@@ -152,7 +152,7 @@ body {
   width: 40px;
   margin: 0 auto;
   position: relative;
-  animation: arrows-down 1s ease-in-out infinite alternate;
+  animation: arrows-down 0.8s ease-in-out infinite alternate;
 }
 
 .header__down-button-arrows::before,
@@ -177,10 +177,10 @@ body {
 
 @keyframes arrows-down {
   from {
-    top: -20%;
+    transform: translateY(-10px);
   }
   to {
-    top: 0%;
+    transform: translateY(0px);
   }
 }
 
